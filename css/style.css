@@ -1,0 +1,133 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+.header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 1443px;
+  justify-content: space-between;
+  background-color: black;
+  z-index: 10;
+}
+.header .logo {
+  display: inline-flex;
+  height: 50 px;
+  margin-left: 10px;
+}
+.header .navigation {
+  display: inline-flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+.navigation p {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-decoration: underline;
+  padding: 10px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main-banner {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  justify-content: center;
+  align-items: center;
+}
+.banner-text {
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  width: 1200px;
+}
+.tea-month {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.content .heading {
+  text-align: center;
+}
+.first-row {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.second-row {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.content img {
+  height: 200px;
+  width: 300px;
+}
+.locations {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  justify-content: space-around;
+  align-items: center;
+  width: 1000px;
+  height: 500px
+}
+.downtown {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  opacity: 1;
+}
+.east-bayside {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  opacity: 1;
+}
+.oakdale {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  opacity: 1;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.contact {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  flex-direction: column;
+}
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+  position: block;
+}
